@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GUESS PASSWORD</title>
+    <script type="text/javascript">
+        
+        function myFunction() {
+           if(information.username.value=="wulaoer")
+           {
+                if(information.password.value=="xdujpesNWXdCDD2Uve56em6FtrdnQ==")
+                {
+                alert("SUCCESS！YOU ARE RIGHT！");
+                } 
+                else
+                {
+                alert("WRONG PASSWORD");
+                }
+           }
+           else
+          {
+            alert("WRONG USERNAME");
+          }
+        };
+        </script>
+    <style>
+        .blockSample{
+            width: 1000px;
+            height: 150px;
+            color: white;
+            background-color: blue;
+            border-style: none;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-left: 130px;
+        }
+
+
+
+        .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+        body {
+            
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;    
+        }
+        .main {
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 5px 20px 0 #e8e8e8;
+            background-color: white;
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        .main h2 {
+            color: lightseagreen;
+            margin-left: 150px;
+        }
+        .form {
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+        .form input {
+            width: 300px;
+            height: 25px;
+            border: 1px solid lightgray;
+            outline: none;  
+        }
+        .form button {
+            width: 150px;
+            height: 30px;
+            color: white;
+            background-color: lightseagreen;
+            border-style: none;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-left: 130px;
+            outline: none;
+            cursor: pointer;   
+        }
+    </style>
+</head>
+<body>
+
+
+    <div >
+        <img class="mb-4" src="./logo.svg.png" alt="" width="72" height="72">
+          <h1 class="h3 mb-3 font-weight-normal">Online Password Guessing Attack</h1>
+        <p></p>
+      </div>
+
+    <div  class="blockSample">
+        There was a man named Wu Laoer. The date of birth is 1999.10.1. He has accounts on many websites
+        and also needs to set a password, but he has a poor memory and does not want the password to be too
+        complicated. He hopes to use his name and date of birth as the password, which is wulaoer1999101. 
+        
+        But he was afraid that the weak password would be guessed, so he thought of a way 
+        to encrypt this password with different encryption methods to get the final password,
+         which made the deciphering more complicated.
+        <br>
+        </div>  
+
+        <div  class="blockSample">
+            The letter segment and the number segment are encrypted in different ways, 
+            both of which were mentioned in the first lesson. You can try to guess the 
+            password he used. (Encrypted keys are all numeric fields.)
+        <br>
+         </div>  
+
+    <div class="blockSample">
+        <h2>Input your name and password</h2>
+        <form name="information" action="" method="get" class="form">
+            USER NAME: <input type="text", name="username"><br>    
+            PASSWORD: <input type="password", name="password"><br>
+            <button   type="submit" onclick="myFunction()" ;>SUBMIT</button><br>
+        </form>
+    </div>
+
+
+
+    
+</body>
+</html>
